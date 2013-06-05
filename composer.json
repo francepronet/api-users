@@ -1,0 +1,32 @@
+{
+  "name": "francepronet/api-users-client",
+  "description": "Client pour l'API Users FranceProNet",
+  "authors": [
+    {
+      "name": "baurelien",
+      "email": "aurelien.bounhiol@francepronet.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "francepronet/api-fpn-core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/php-code-coverage": "1.3.*@dev",
+    "phpunit/phpunit-mock-objects": "1.3.*@dev",
+    "phpunit/php-timer": "dev-master",
+    "sebastian/diff": "1.0.*@dev",
+    "sebastian/exporter": "1.0.*@dev",
+    "phpunit/phpunit": "3.8.*@dev"
+  },
+  "autoload": {
+    "psr-0": { "Fpn\\ApiClient\\Users\\": "" }
+  },
+  "target-dir": "Fpn/ApiClient/Users",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/francepronet/api-core"
+    }
+  ]
+}
